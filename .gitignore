@@ -1,0 +1,3 @@
+node_modules
+package*
+.hugo_build.lock
