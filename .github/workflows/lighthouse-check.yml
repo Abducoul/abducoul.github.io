@@ -6,14 +6,14 @@ jobs:
   score-check:
     runs-on: ubuntu-latest
     steps:
-    - name: Waiting for Netlify Preview
-      uses: kamranayub/wait-for-netlify-action@v2.1.1
-      id: preview
-      with:
-        site_name: "toha"
-        max_timeout: 300
-      env:
-        NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+    # - name: Waiting for Netlify Preview
+    #   uses: kamranayub/wait-for-netlify-action@v2.1.1
+    #   id: preview
+    #   with:
+    #     site_name: "toha"
+    #     max_timeout: 300
+    #   env:
+    #     NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
 
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@v9.1.0
