@@ -8,8 +8,8 @@ image: "images/author/me.jpeg"
 contactInfo:
   email: "abdoucoul.coulibaly@gmail.com"
   phone: "+33640253578"
-  github: https://github.com/Abducoul
-  linkedin: https://www.linkedin.com/in/abdoulaye-coulibaly-77209a112/
+  github: "https://github.com/Abducoul"
+  linkedin: "https://www.linkedin.com/in/abdoulaye-coulibaly-77209a112/"
 
 # some summary about what you do
 summary:
